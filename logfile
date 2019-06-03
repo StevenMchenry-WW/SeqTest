@@ -1,0 +1,20 @@
+2019-06-03 10:39:46.461 PDT [23322] LOG:  could not bind IPv6 address "::1": Address already in use
+2019-06-03 10:39:46.461 PDT [23322] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2019-06-03 10:39:46.461 PDT [23322] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-06-03 10:39:46.462 PDT [23322] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-06-03 10:39:46.472 PDT [23323] LOG:  database system was shut down at 2019-06-03 10:39:05 PDT
+2019-06-03 10:39:46.514 PDT [23322] LOG:  database system is ready to accept connections
+2019-06-03 10:41:22.465 PDT [23341] ERROR:  syntax error at or near "SELECT" at character 26
+2019-06-03 10:41:22.465 PDT [23341] STATEMENT:  CREATE EXTENSION postgis
+	SELECT postgis
+	SELECT PostGIS_Version();
+2019-06-03 10:42:16.079 PDT [23341] ERROR:  syntax error at or near ";" at character 5
+2019-06-03 10:42:16.079 PDT [23341] STATEMENT:  SHOW;
+2019-06-03 10:51:42.494 PDT [23953] FATAL:  database "steven.mchenry" does not exist
+2019-06-03 10:51:52.431 PDT [23960] FATAL:  role "postgres" does not exist
+2019-06-03 10:54:10.063 PDT [24200] FATAL:  database "steven.mchenry" does not exist
+2019-06-03 10:54:26.640 PDT [24207] FATAL:  database "steven.mchenry" does not exist
+2019-06-03 10:58:01.457 PDT [24870] FATAL:  database "steven.mchenry" does not exist
+2019-06-03 10:58:09.927 PDT [24877] FATAL:  database "postgresql" does not exist
+2019-06-03 14:30:12.329 PDT [35974] FATAL:  role "books" does not exist
+2019-06-03 16:03:01.396 PDT [44014] FATAL:  database "book_test" does not exist
